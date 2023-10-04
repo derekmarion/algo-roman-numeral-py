@@ -14,3 +14,6 @@ def test_04_all_edge_cases():
     assert to_roman(944) == 'CMXLIV'
     
 # add tests to cover different edge cases
+
+def test_05_large_number():
+    assert to_roman(3100) == 'MMMC'
