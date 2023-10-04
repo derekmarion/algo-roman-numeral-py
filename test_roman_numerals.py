@@ -8,9 +8,9 @@ def test_02_multiple_entries():
     assert to_roman(3) == 'III'
 
 def test_03_odd_numerals():
-    to_roman(4) == 'IV'
+    assert to_roman(4) == 'IV'
 
 def test_04_all_edge_cases():
-    to_roman(944) == 'CMXLIV'
+    assert to_roman(944) == 'CMXLIV'
     
 # add tests to cover different edge cases
